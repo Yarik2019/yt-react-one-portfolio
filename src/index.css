@@ -687,6 +687,10 @@ html {
   width: 10rem;
 }
 
+.max-w-screen-lg{
+  max-width: 1024px;
+}
+
 .max-w-md{
   max-width: 28rem;
 }
@@ -1003,18 +1007,88 @@ html {
   outline-offset: 2px;
 }
 
+@media (min-width: 1024px){
+  .lg\:flex{
+    display: flex;
+  }
+}
+
+@media (min-width: 768px){
+  .md\:flex{
+    display: flex;
+  }
+
+  .md\:hidden{
+    display: none;
+  }
+
+  .md\:h-screen{
+    height: 100vh;
+  }
+
+  .md\:w-1\/2{
+    width: 50%;
+  }
+
+  .md\:w-full{
+    width: 100%;
+  }
+
+  .md\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:flex-row{
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 640px){
+  .sm\:mt-10{
+    margin-top: 2.5rem;
+  }
+
+  .sm\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .sm\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .sm\:py-10{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .sm\:py-8{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .sm\:px-8{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .sm\:text-7xl{
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+}
+
 @media (min-width: 320px){
   .xs\:h-auto{
     height: auto;
   }
 
-  .xs\:py-4{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-
   .xs\:py-8{
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .xs\:py-4{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 }
