@@ -1007,6 +1007,22 @@ html {
   outline-offset: 2px;
 }
 
+@media (min-width: 320px){
+  .xs\:h-auto{
+    height: auto;
+  }
+
+  .xs\:py-8{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .xs\:py-4{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
 @media (min-width: 640px){
   .sm\:mt-10{
     margin-top: 2.5rem;
