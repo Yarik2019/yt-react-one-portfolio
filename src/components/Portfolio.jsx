@@ -1,52 +1,7 @@
 import React from "react";
-
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg';
-import installNode from '../assets/portfolio/installNode.jpg';
-import navbar from '../assets/portfolio/navbar.jpg';
-import reactParallax from '../assets/portfolio/reactParallax.jpg';
-import reactSmooth from '../assets/portfolio/reactSmooth.jpg';
-import reactWeather from '../assets/portfolio/reactWeather.jpg';
+import { portfolio } from "../dateAndImportImg/data";
 
 const Portfolio = () => {
-
-    const portfolio = [
-        {
-            id: 1,
-            src: arrayDestruct,
-            demoLink:'https://',
-            codeLink:'https://'
-        },
-        {
-            id: 2,
-            src: installNode,
-            demoLink:'https://',
-            codeLink:'https://'
-        },
-        {
-            id: 3,
-            src: navbar,
-            demoLink:'https://',
-            codeLink:'https://'
-        },
-        {
-            id: 4,
-            src: reactParallax,
-            demoLink:'https://',
-            codeLink:'https://'
-        },
-        {
-            id: 5,
-            src: reactSmooth,
-            demoLink:'https://',
-            codeLink:'https://'
-        },
-        {
-            id: 6,
-            src: reactWeather,
-            demoLink:'https://',
-            codeLink:'https://'
-        },
-    ]
     return (
         <div name='portfolio'
             className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen xs:h-auto xs:py-8"
