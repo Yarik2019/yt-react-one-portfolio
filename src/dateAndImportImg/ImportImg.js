@@ -2,12 +2,12 @@
 import YarikImg from '../assets/done.png';
 
 /* portfolio */
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg';
-import installNode from '../assets/portfolio/installNode.jpg';
-import navbarImg from '../assets/portfolio/navbar.jpg';
-import reactParallax from '../assets/portfolio/reactParallax.jpg';
-import reactSmooth from '../assets/portfolio/reactSmooth.jpg';
-import reactWeather from '../assets/portfolio/reactWeather.jpg';
+import ActiveBox from '../assets/portfolio/ActiveBox.jpeg';
+import MoGo from '../assets/portfolio/MoGo.jpeg'
+import playMousic from '../assets/portfolio/playMousic.jpeg';
+import sider3D from '../assets/portfolio/sider-3d.jpg';
+import vueCreptol from '../assets/portfolio/vueCreptol.jpeg';
+// import reactWeather from '../assets/portfolio/reactWeather.jpg';
 
 /* Experience */
 import html from '../assets/html.png';
@@ -24,4 +24,4 @@ import github from '../assets/github.png';
 import bitbucket  from '../assets/bitbucket.png';
 
 
-export { YarikImg, arrayDestruct, installNode, navbarImg, reactParallax, reactSmooth, reactWeather ,html, css, javascript, reactImage, vueImage, sass, firebase, mySql, github, bitbucket, tailwind, bootstap}
+export { YarikImg, ActiveBox, MoGo, playMousic, sider3D, vueCreptol ,html, css, javascript, reactImage, vueImage, sass, firebase, mySql, github, bitbucket, tailwind, bootstap}

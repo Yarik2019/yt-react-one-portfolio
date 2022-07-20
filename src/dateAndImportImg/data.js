@@ -1,7 +1,8 @@
-import {  arrayDestruct, installNode, navbarImg, reactParallax, reactSmooth, reactWeather ,html, css, javascript, reactImage, vueImage, sass, firebase, mySql, github, bitbucket, tailwind, bootstap} from '../dateAndImportImg/ImportImg';
+import { ActiveBox, MoGo, playMousic, sider3D, vueCreptol ,html, css, javascript, reactImage, vueImage, sass, firebase, mySql, github, bitbucket, tailwind, bootstap} from '../dateAndImportImg/ImportImg';
 
 /* socialLinks */ 
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { AiOutlinePhone } from "react-icons/ai";
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 
@@ -37,10 +38,10 @@ const socialLinks = [
         id: 1,
         child: (
             <>
-                LinkedIn <FaLinkedin size={30} />
+                Phone number <AiOutlinePhone size={30} />
             </>
         ),
-        href: 'https://linkedin.com',
+        href: 'tel:+380968749135',
         style: 'rounded-tr-md'
     },
     {
@@ -77,40 +78,40 @@ const socialLinks = [
 const portfolio = [
     {
         id: 1,
-        src: arrayDestruct,
-        demoLink:'https://',
-        codeLink:'https://'
+        src: ActiveBox,
+        demoLink:'https://62d7915db60af2746bda48fd--ephemeral-meringue-53162d.netlify.app/',
+        codeLink:'https://github.com/Yarik2019/ActiveBox'
     },
     {
         id: 2,
-        src: installNode,
-        demoLink:'https://',
-        codeLink:'https://'
+        src: MoGo,
+        demoLink:'https://gregarious-sorbet-88f50d.netlify.app/#',
+        codeLink:'https://github.com/Yarik2019/MoGo'
     },
     {
         id: 3,
-        src: navbarImg,
-        demoLink:'https://',
-        codeLink:'https://'
+        src: playMousic,
+        demoLink:'https://62d78d8581600571eda44653--boisterous-gumdrop-4f91e8.netlify.app/',
+        codeLink:'https://github.com/Yarik2019/PlayerMouse'
     },
     {
         id: 4,
-        src: reactParallax,
-        demoLink:'https://',
-        codeLink:'https://'
+        src: sider3D,
+        demoLink:'https://62d78ce8816005716da44546--superlative-douhua-091e42.netlify.app/',
+        codeLink:'https://github.com/Yarik2019/SliderAssassinsCreed-'
     },
     {
         id: 5,
-        src: reactSmooth,
-        demoLink:'https://',
-        codeLink:'https://'
+        src: vueCreptol,
+        demoLink:'https://62d78f70b60af2730eda5a13--merry-narwhal-a569a2.netlify.app/?filter=&page=1',
+        codeLink:'https://github.com/Yarik2019/vueCryptocompare'
     },
-    {
-        id: 6,
-        src: reactWeather,
-        demoLink:'https://',
-        codeLink:'https://'
-    },
+    // {
+    //     id: 6,
+    //     src: reactWeather,
+    //     demoLink:'https://',
+    //     codeLink:'https://'
+    // },
 ]
 
 /* experience */
@@ -161,7 +162,7 @@ const portfolio = [
         id:8,
         src: bootstap,
         title: 'Bootstap',
-        style: 'shadow-gray-400',
+        style: 'shadow-purple-400',
     },
     {
         id:9,
@@ -172,7 +173,7 @@ const portfolio = [
     {
         id:10,
         src: mySql,
-        title: '    mySql',
+        title: 'mySql',
         style: 'shadow-sky-400',
     },
     {
