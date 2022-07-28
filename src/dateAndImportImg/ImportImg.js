@@ -7,6 +7,7 @@ import MoGo from '../assets/portfolio/MoGo.jpeg'
 import playMousic from '../assets/portfolio/playMousic.jpeg';
 import sider3D from '../assets/portfolio/sider-3d.jpg';
 import vueCreptol from '../assets/portfolio/vueCreptol.jpeg';
+import vrLoading from '../assets/portfolio/vr_loading.jfif';
 // import reactWeather from '../assets/portfolio/reactWeather.jpg';
 
 /* Experience */
@@ -24,4 +25,4 @@ import github from '../assets/github.png';
 import bitbucket  from '../assets/bitbucket.png';
 
 
-export { YarikImg, ActiveBox, MoGo, playMousic, sider3D, vueCreptol ,html, css, javascript, reactImage, vueImage, sass, firebase, mySql, github, bitbucket, tailwind, bootstap}
+export { YarikImg, ActiveBox, MoGo, playMousic, sider3D, vueCreptol, vrLoading ,html, css, javascript, reactImage, vueImage, sass, firebase, mySql, github, bitbucket, tailwind, bootstap}

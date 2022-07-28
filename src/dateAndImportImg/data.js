@@ -1,4 +1,4 @@
-import { ActiveBox, MoGo, playMousic, sider3D, vueCreptol ,html, css, javascript, reactImage, vueImage, sass, firebase, mySql, github, bitbucket, tailwind, bootstap} from '../dateAndImportImg/ImportImg';
+import { ActiveBox, MoGo, playMousic, sider3D, vueCreptol, vrLoading ,html, css, javascript, reactImage, vueImage, sass, firebase, mySql, github, bitbucket, tailwind, bootstap} from '../dateAndImportImg/ImportImg';
 
 /* socialLinks */ 
 import { FaGithub } from "react-icons/fa";
@@ -106,12 +106,12 @@ const portfolio = [
         demoLink:'https://62d78f70b60af2730eda5a13--merry-narwhal-a569a2.netlify.app/?filter=&page=1',
         codeLink:'https://github.com/Yarik2019/vueCryptocompare'
     },
-    // {
-    //     id: 6,
-    //     src: reactWeather,
-    //     demoLink:'https://',
-    //     codeLink:'https://'
-    // },
+    {
+        id: 6,
+        src: vrLoading,
+        demoLink:'https://62e248b266a5925cd8415a6d--preeminent-khapse-7f54d7.netlify.app/',
+        codeLink:'https://github.com/Yarik2019/vr-loading'
+    },
 ]
 
 /* experience */

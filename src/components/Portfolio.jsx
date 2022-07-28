@@ -14,10 +14,10 @@ const Portfolio = () => {
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-8 ">
                     {portfolio.map(({ id, src, demoLink, codeLink}) => (
                         <div key={id} className='shadow-md shadow-gray-600 rounded-lg' >
-                            <img src={src} alt="" className="rounded-md duration-200 hover:scale-105" />
+                            <img src={src} alt="" className="rounded-md duration-200  h-[150px] w-full hover:scale-105" />
                             <div className="flex items-center justify-center">
                                 <a href={demoLink} target='_blank' rel='noreferrer' className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</a>
-                                <a href={codeLink} target='_blank' rel='noreferrer' className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</a>
+                                <a href={codeLink} target='_blank' rel='noreferrer' className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 xs:grid xs:justify-center'>Code</a>
                             </div>
                         </div>
                     ))}
