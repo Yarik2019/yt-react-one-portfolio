@@ -1,4 +1,4 @@
-import { ActiveBox, MoGo, playMousic, sider3D, vueCreptol, vrLoading ,html, css, javascript, reactImage, vueImage, sass, firebase, mySql, github, bitbucket, tailwind, bootstap} from '../dateAndImportImg/ImportImg';
+import { ActiveBox, MoGo, playMousic, sider3D, vueCreptol, vrLoading, activeTraker, vueInvoiceApp  ,html, css, javascript, reactImage, vueImage, sass, firebase , supabase, mySql, github, bitbucket, tailwind, bootstap} from '../dateAndImportImg/ImportImg';
 
 /* socialLinks */ 
 import { FaGithub } from "react-icons/fa";
@@ -112,6 +112,19 @@ const portfolio = [
         demoLink:'https://62e248b266a5925cd8415a6d--preeminent-khapse-7f54d7.netlify.app/',
         codeLink:'https://github.com/Yarik2019/vr-loading'
     },
+    {
+        id: 7,
+        src: activeTraker,
+        demoLink:'https://splendid-florentine-559fef.netlify.app/',
+        codeLink:'https://github.com/Yarik2019/active_tracker_supbase'
+    },
+    {
+        id: 8,
+        src: vueInvoiceApp,
+        demoLink:'https://charming-gumdrop-d2a002.netlify.app/',
+        codeLink:'https://github.com/Yarik2019/VueInvoiceApp'
+    },
+    
 ]
 
 /* experience */
@@ -172,18 +185,24 @@ const portfolio = [
     },
     {
         id:10,
+        src: supabase,
+        title: 'Supabase',
+        style: 'shadow-green-500',
+    },
+    {
+        id:11,
         src: mySql,
         title: 'mySql',
         style: 'shadow-sky-400',
     },
     {
-        id:11,
+        id:12,
         src: github,
         title: 'GitHub',
         style: 'shadow-gray-400',
     },
     {
-        id:12,
+        id:13,
         src: bitbucket,
         title: 'Bitbucket',
         style: 'shadow-blue-400',
