@@ -1,7 +1,11 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { Link } from 'react-scroll';
 import { navbar } from "../dateAndImportImg/data";
+const navbarText = {
+    title: `Terno`
+}
+
 const NavBar = () => {
     const [nav, setNav] = useState(false);
     return (
@@ -10,7 +14,7 @@ const NavBar = () => {
                 <Link to="home" 
                       smooth
                       duration={500}>
-                    <h1 className="text-3xl cursor-pointer font-signature ml-2">Terno</h1>
+                    <h1 className="text-3xl cursor-pointer font-signature ml-2">{navbarText.title}</h1>
                 </Link>
 
             </div>

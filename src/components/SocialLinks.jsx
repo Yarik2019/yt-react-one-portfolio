@@ -1,4 +1,3 @@
-import React from "react";
 import { socialLinks } from "../dateAndImportImg/data";
 const SocialLinks = () => {
     return (

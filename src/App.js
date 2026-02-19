@@ -7,6 +7,7 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Experience from './components/Experience ';
 import Contact from './components/Contact';
+import ScrollToTop from "react-scroll-to-top";
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
       <Portfolio/>
       <Experience/>
       <Contact/>
+      <ScrollToTop smooth  className="absolute  !right-4 !bottom-4 flex items-center justify-center  bg-black text-white" />
     </div>
   );
 }
