@@ -212,7 +212,7 @@ const experience = [
   {
     id: id,
     src: node,
-    title: "Node.js",
+    title: "Node",
     style: "shadow-green-500",
   },
   {
