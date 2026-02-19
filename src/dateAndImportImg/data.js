@@ -31,7 +31,6 @@ import {
   primevue,
   vercel,
   netlify,
-  vite,
 } from "../dateAndImportImg/ImportImg";
 
 import { v4 as uuidv4 } from "uuid";

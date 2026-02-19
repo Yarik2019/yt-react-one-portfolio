@@ -37,7 +37,6 @@ import bootstap from "../assets/ibootstrap-480.png";
 import github from "../assets/github.png";
 import vercel from "../assets/vercel.png";
 import netlify from "../assets/netlify.png";
-import vite from "../assets/vite.png";
 import bitbucket from "../assets/bitbucket.png";
 
 export {
@@ -74,5 +73,4 @@ export {
   primevue,
   vercel,
   netlify,
-  vite,
 };
