@@ -38,7 +38,9 @@ import { v4 as uuidv4 } from "uuid";
 import { FaGithub } from "react-icons/fa";
 // import { AiOutlinePhone } from "react-icons/ai";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+// import { BsFillPersonLinesFill } from "react-icons/bs";
+import { LiaCertificateSolid } from "react-icons/lia";
+
 
 const id = uuidv4();
 
@@ -96,17 +98,27 @@ const socialLinks = [
     ),
     href: "mailto:yroslavterno@gmail.com",
   },
-  {
-    id: 4,
+   {
+    id: id,
     child: (
       <>
-        Resume <BsFillPersonLinesFill size={30} />
+        Certificate <LiaCertificateSolid className="!text-white" size={30} />
       </>
     ),
-    href: "https://docs.google.com/document/d/1iV_WLj2dJfo-B7t74s1Is1QLhiQPE82HS0r59LxIRvk/edit?usp=sharing",
     style: "rounded-br-md",
-    download: true,
+    href: "https://drive.google.com/file/d/19bCoGx9aCszTwiuvVMUV0S0sOnMc-gI8/view?usp=sharing",
   },
+//   {
+//     id: id,
+//     child: (
+//       <>
+//         Resume <BsFillPersonLinesFill size={30} />
+//       </>
+//     ),
+//     href: "https://docs.google.com/document/d/1iV_WLj2dJfo-B7t74s1Is1QLhiQPE82HS0r59LxIRvk/edit?usp=sharing",
+//     style: "rounded-br-md",
+//     download: true,
+//   },
 ];
 /* portfolio */
 const portfolio = [
