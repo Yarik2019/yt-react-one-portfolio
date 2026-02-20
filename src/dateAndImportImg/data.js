@@ -23,6 +23,7 @@ import {
   mongodb,
   mySql,
   github,
+  gitlab,
   bitbucket,
   tailwind,
   bootstap,
@@ -40,7 +41,6 @@ import { FaGithub } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 // import { BsFillPersonLinesFill } from "react-icons/bs";
 import { LiaCertificateSolid } from "react-icons/lia";
-
 
 const id = uuidv4();
 
@@ -98,7 +98,7 @@ const socialLinks = [
     ),
     href: "mailto:yroslavterno@gmail.com",
   },
-   {
+  {
     id: id,
     child: (
       <>
@@ -108,17 +108,17 @@ const socialLinks = [
     style: "rounded-br-md",
     href: "https://drive.google.com/file/d/19bCoGx9aCszTwiuvVMUV0S0sOnMc-gI8/view?usp=sharing",
   },
-//   {
-//     id: id,
-//     child: (
-//       <>
-//         Resume <BsFillPersonLinesFill size={30} />
-//       </>
-//     ),
-//     href: "https://docs.google.com/document/d/1iV_WLj2dJfo-B7t74s1Is1QLhiQPE82HS0r59LxIRvk/edit?usp=sharing",
-//     style: "rounded-br-md",
-//     download: true,
-//   },
+  //   {
+  //     id: id,
+  //     child: (
+  //       <>
+  //         Resume <BsFillPersonLinesFill size={30} />
+  //       </>
+  //     ),
+  //     href: "https://docs.google.com/document/d/1iV_WLj2dJfo-B7t74s1Is1QLhiQPE82HS0r59LxIRvk/edit?usp=sharing",
+  //     style: "rounded-br-md",
+  //     download: true,
+  //   },
 ];
 /* portfolio */
 const portfolio = [
@@ -304,6 +304,12 @@ const experience = [
     src: github,
     title: "GitHub",
     style: "shadow-gray-400",
+  },
+  {
+    id: id,
+    src: gitlab,
+    title: "GitLab",
+    style: "shadow-orange-500",
   },
   {
     id: id,

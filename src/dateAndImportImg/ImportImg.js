@@ -10,6 +10,14 @@ import vueCreptol from "../assets/portfolio/vueCreptol.jpeg";
 import vrLoading from "../assets/portfolio/vr_loading.jfif";
 import activeTraker from "../assets/portfolio/activeTraker.jpg";
 import vueInvoiceApp from "../assets/portfolio/vueInvoiceApp.jpg";
+// import adminDashboard from "../assets/portfolio/admin-dashboard.jpg";
+  // import andstillmemorabilia from "../assets/portfolio/andstillmemorabilia.jpg";
+// import aquaDevAmber from "../assets/portfolio/aqua-dev-amber.jpg";
+// import petlove from "../assets/portfolio/petlove.jpg";
+// import speedJsTeam from "../assets/portfolio/speed-js-team-project.jpg";
+// import travelTrucks from "../assets/portfolio/travel-trucks.jpg";
+// import watchCharm from "../assets/portfolio/watch-charm.jpg";
+// import womanG from "../assets/portfolio/woman-g.jpg";
 
 // import reactWeather from '../assets/portfolio/reactWeather.jpg';
 
@@ -34,9 +42,10 @@ import supabase from "../assets/supabase.svg";
 import mongodb from "../assets/mongodb.webp";
 import mySql from "../assets/mysql.png";
 import bootstap from "../assets/ibootstrap-480.png";
-import github from "../assets/github.png";
 import vercel from "../assets/vercel.png";
 import netlify from "../assets/netlify.png";
+import github from "../assets/github.png";
+import gitlab from "../assets/gitlab.svg";
 import bitbucket from "../assets/bitbucket.png";
 
 export {
@@ -65,6 +74,7 @@ export {
   mongodb,
   mySql,
   github,
+  gitlab,
   bitbucket,
   tailwind,
   bootstap,
