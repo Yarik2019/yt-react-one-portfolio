@@ -9,7 +9,7 @@ const navbarText = {
 const NavBar = () => {
     const [nav, setNav] = useState(false);
     return (
-        <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
+        <div className="z-50 flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
             <div>
                 <Link to="home" 
                       smooth
