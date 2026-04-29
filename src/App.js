@@ -72,8 +72,8 @@ function App() {
         hasErrorContact ||
         hasErrorExperience ||
         hasErrorPortfolio) && (
-        <div className="h-screen flex items-center text-center text-2xl sm:text-7xl font-bold text-white">
-          <span>Error occurred while loading items.</span>
+        <div className="absolute z-50  h-screen w-full flex items-center justify-center bg-gradient-to-b from-black via-black to-gray-800">
+          <span className="text-white">Error occurred while loading items. hasErrorHome: {hasErrorHome} hasErrorAbout: {hasErrorAbout} hasErrorContact: {hasErrorContact} hasErrorExperience: {hasErrorExperience} hasErrorPortfolio: {hasErrorPortfolio} </span>
         </div>
       )}
       {!isLoadingHome &&
