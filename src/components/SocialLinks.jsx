@@ -6,15 +6,15 @@ import * as SiIcons from "react-icons/si";
 import * as TbIcons from "react-icons/tb";
 import { useSelector } from "react-redux";
 import {
-  selectContactItems,
-  selectContactLoading,
-  selectContactError,
+  selectSocialItems,
+  selectSocialLoading,
+  selectSocialError,
 } from "../redux/social/selectors";
 
 const SocialLinks = () => {
-  const SocialItems = useSelector(selectContactItems);
-  const isLoading = useSelector(selectContactLoading);
-  const hasError = useSelector(selectContactError);
+  const SocialItems = useSelector(selectSocialItems);
+  const isLoading = useSelector(selectSocialLoading);
+  const hasError = useSelector(selectSocialError);
   const Icons = (icon) => {
     const [packName, iconName] = icon.split("/");
     const pachs = {
