@@ -15,13 +15,13 @@ import { getPortfolio } from "./redux/portfolio/operations";
 import { getHome } from "./redux/home/operations";
 import { getAbout } from "./redux/about/operations";
 import { getExperience } from "./redux/experience/operations";
-import { getContact } from "./redux/contact/operations";
+import { getSocial } from "./redux/social/operations";
 import { selectHomeLoading, selectHomeError } from "./redux/home/selectors";
 import { selectAboutError, selectAboutLoading } from "./redux/about/selectors";
 import {
-  selectContactError,
-  selectContactLoading,
-} from "./redux/contact/selectors";
+  selectSocialError,
+  selectSocialLoading,
+} from "./redux/social/selectors";
 import {
   selectExperienceError,
   selectExperienceLoading,
@@ -37,7 +37,7 @@ function App() {
     const initPortfolio = () => {
       dispatch(getHome());
       dispatch(getAbout());
-      dispatch(getContact());
+      dispatch(getSocial());
       dispatch(getExperience());
       dispatch(getPortfolio());
     };
@@ -46,13 +46,13 @@ function App() {
 
   const isLoadingHome = useSelector(selectHomeLoading);
   const isLoadingAbout = useSelector(selectAboutLoading);
-  const isLoadingContact = useSelector(selectContactLoading);
+  const isLoadingSocial = useSelector(selectSocialLoading);
   const isLoadingExperience = useSelector(selectExperienceLoading);
   const isLoadingPortfolio = useSelector(selectPortfolioLoading);
 
   const hasErrorHome = useSelector(selectHomeError);
   const hasErrorAbout = useSelector(selectAboutError);
-  const hasErrorContact = useSelector(selectContactError);
+  const hasErrorSocial = useSelector(selectSocialError);
   const hasErrorExperience = useSelector(selectExperienceError);
   const hasErrorPortfolio = useSelector(selectPortfolioError);
 
@@ -60,7 +60,7 @@ function App() {
     <>
       {(isLoadingHome ||
         isLoadingAbout ||
-        isLoadingContact ||
+        isLoadingSocial ||
         isLoadingExperience ||
         isLoadingPortfolio) && (
         <div className="absolute z-50  h-screen w-full flex items-center justify-center bg-gradient-to-b from-black via-black to-gray-800">
@@ -69,21 +69,22 @@ function App() {
       )}
       {(hasErrorHome ||
         hasErrorAbout ||
-        hasErrorContact ||
+        hasErrorSocial ||
         hasErrorExperience ||
         hasErrorPortfolio) && (
         <div className="absolute z-50  h-screen w-full flex items-center justify-center bg-gradient-to-b from-black via-black to-gray-800">
-          <span className="text-white">Error occurred while loading items. hasErrorHome: {hasErrorHome} hasErrorAbout: {hasErrorAbout} hasErrorContact: {hasErrorContact} hasErrorExperience: {hasErrorExperience} hasErrorPortfolio: {hasErrorPortfolio} </span>
+          <span className="text-white">Error occurred while loading items. hasErrorHome: {hasErrorHome}, hasErrorAbout: {hasErrorAbout} hasErrorSocial: {hasErrorSocial} hasErrorExperience: {hasErrorExperience} hasErrorPortfolio: {hasErrorPortfolio} </span>
         </div>
       )}
       {!isLoadingHome &&
         !isLoadingAbout &&
-        !isLoadingContact &&
+        !isLoadingSocial &&
+        !isLoadingExperience &&
         !isLoadingExperience &&
         !isLoadingPortfolio &&
         !hasErrorHome &&
         !hasErrorAbout &&
-        !hasErrorContact &&
+        !hasErrorSocial &&
         !hasErrorExperience &&
         !hasErrorPortfolio && (
           <div className="App">

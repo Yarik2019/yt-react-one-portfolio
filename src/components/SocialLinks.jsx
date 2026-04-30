@@ -9,7 +9,7 @@ import {
   selectContactItems,
   selectContactLoading,
   selectContactError,
-} from "../redux/contact/selectors";
+} from "../redux/social/selectors";
 
 const SocialLinks = () => {
   const SocialItems = useSelector(selectContactItems);

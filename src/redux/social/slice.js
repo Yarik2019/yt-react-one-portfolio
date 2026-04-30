@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { getContact } from "./operations";
+import { getSocial } from "./operations";
 
 const initialState = {
   items: [],
@@ -7,25 +7,25 @@ const initialState = {
   error: false,
 };
 
-const contactSlice = createSlice({
-  name: "contact",
+const socialSlice = createSlice({
+  name: "social",
   initialState,
   reducers: {},
   extraReducers: (builder) => {
     builder
-      .addCase(getContact.fulfilled, (state, action) => {
+      .addCase(getSocial.fulfilled, (state, action) => {
         state.loading = false;
         state.items = action.payload;
       })
-      .addCase(getContact.pending, (state) => {
+      .addCase(getSocial.pending, (state) => {
         state.loading = true;
         state.error = false;
       })
-      .addCase(getContact.rejected, (state) => {
+      .addCase(getSocial.rejected, (state) => {
         state.loading = false;
         state.error = true;
       });
   },
 });
 
-export const contactReducer = contactSlice.reducer;
+export const socialReducer = socialSlice.reducer;
