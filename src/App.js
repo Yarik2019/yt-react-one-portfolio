@@ -31,6 +31,7 @@ import {
   selectPortfolioLoading,
 } from "./redux/portfolio/selectors";
 
+
 function App() {
   const dispatch = useDispatch();
   useEffect(() => {
@@ -40,7 +41,7 @@ function App() {
       dispatch(getSocial());
       dispatch(getExperience());
       dispatch(getPortfolio());
-    };
+    };  
     initPortfolio();
   }, [dispatch]);
 

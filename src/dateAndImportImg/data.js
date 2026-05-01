@@ -47,23 +47,23 @@ const id = uuidv4();
 /* navbar */
 const navbar = [
   {
-    id: id,
+    id: 1,
     link: "home",
   },
   {
-    id: id,
+    id: 2,
     link: "about",
   },
   {
-    id: id,
+    id: 3,
     link: "portfolio",
   },
   {
-    id: id,
+    id: 4,
     link: "experience",
   },
   {
-    id: id,
+    id: 5,
     link: "contact",
   },
 ];
