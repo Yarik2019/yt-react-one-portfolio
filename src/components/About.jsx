@@ -33,7 +33,7 @@ const About = () => {
                   {title}
                 </p>
               </div>
-              <p className="text-xl mt-20 sm:mt-10">{subTitle}</p>
+              <p className="text-xl mt-16 sm:mt-10">{subTitle}</p>
               <br />
               <p className="text-xl">{description}</p>
             </div>
